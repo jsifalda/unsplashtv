@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDe
     
     var appController: TVApplicationController?
     static let TVBaseURL = "http://localhost:9001/"
-    static let TVBootURL = "\(AppDelegate.TVBaseURL)src/application.js"
+    static let TVBootURL = "\(AppDelegate.TVBaseURL)www/bundle.js"
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
